@@ -1,15 +1,11 @@
 #include <stdio.h>
-
 int sumProperDivisors(int n);
-
 int main()
 {
     int start, end;
     printf("Enter the range (start end): ");
     scanf("%d %d", &start, &end);
-
     printf("Perfect numbers between %d and %d are:\n", start, end);
-
     for (int i = start; i <= end; i++)
     {
         if (i == sumProperDivisors(i))
@@ -17,11 +13,9 @@ int main()
             printf("%d ", i);
         }
     }
-
     printf("\n");
     return 0;
 }
-
 int sumProperDivisors(int n)
 {
     int sum = 0;

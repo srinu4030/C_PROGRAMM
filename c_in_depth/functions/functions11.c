@@ -19,7 +19,7 @@ void displaymenu(void)
     printf("6.Exit\n");
 }
 
-
+/*
 
 //function with arguments nut no return values
 #include <stdio.h>
@@ -75,4 +75,4 @@ int sumoftwo(int a, int b)
     int sum;
     sum=a+b;
     return sum;
-}
+}*/

@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "POINTER4.C": "cpp",
+        "stdio.h": "c"
+    },
+    "editor.snippets.codeActions.enabled": false,
+    "editor.snippetSuggestions": "none",
+    "C_Cpp.suggestSnippets": false,
+    "typescript.suggest.classMemberSnippets.enabled": false
+}
