@@ -10,6 +10,4 @@ int main(){
     printf("Original is : 0x%X\n", num);
     printf("Swapped is : 0x%X\n", swapped);
     return 0;
-
-
 }
