@@ -31,7 +31,7 @@ void addNode(int d)
     pnew->nxt=NULL;
     if(phead==NULL)
     {
-        phead=pnew;;
+        phead=pnew;
         return ;
     }
     struct Node *ptemp=phead;
