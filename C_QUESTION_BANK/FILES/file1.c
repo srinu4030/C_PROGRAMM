@@ -25,6 +25,4 @@ int main(){
     fclose(src);
     fclose(dst);
     return 0;
-
-
 }
