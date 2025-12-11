@@ -1,4 +1,4 @@
-/*mplement a file management system that allows users to create, read, update, and delete 
+/*Implement a file management system that allows users to create, read, update, and delete 
 files using C functions.*/
 
 #include <stdio.h>
@@ -12,7 +12,6 @@ void deleteFile();
 
 int main() {
     int choice;
-
     while (1) {
         printf("\n===== File Management System =====\n");
         printf("1. Create File\n");
@@ -23,7 +22,6 @@ int main() {
         printf("Enter your choice: ");
         scanf("%d", &choice);
         getchar(); // consume newline left by scanf
-
         switch (choice) {
             case 1: createFile(); break;
             case 2: readFile(); break;
@@ -33,7 +31,6 @@ int main() {
             default: printf("Invalid choice! Try again.\n");
         }
     }
-
     return 0;
 }
 

@@ -17,7 +17,6 @@ int longestSubstring(char *s) {
             freq[(unsigned char)s[left]]--;
             left++;
         }
-
         // Window is valid now (unique chars only)
         int currentLen = right - left + 1;
         if (currentLen > maxLen)
@@ -25,7 +24,6 @@ int longestSubstring(char *s) {
 
         right++;
     }
-
     return maxLen;
 }
 

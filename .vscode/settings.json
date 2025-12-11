@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "POINTER4.C": "cpp",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "PROGRAM12.C": "cpp"
     },
     "editor.snippets.codeActions.enabled": false,
     "editor.snippetSuggestions": "none",
